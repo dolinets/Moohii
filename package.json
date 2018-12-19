@@ -1,0 +1,33 @@
+{
+  "name": "forgrant",
+  "version": "1.0.0",
+  "keywords": [
+    "util",
+    "functional",
+    "server",
+    "client",
+    "browser"
+  ],
+  "author": "dolin",
+  "contributors": [],
+  "dependencies": {
+    "gulp-cache": "^1.0.2",
+    "imagemin-jpeg-recompress": "^5.1.0"
+  },
+  "description": "test",
+  "main": "scrypt.js\u001b[D\u001b[D\u001b[D\u001b[D\u001b[i",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-uglify": "^3.0.1",
+    "imagemin-pngquant": "^6.0.0"
+  },
+  "optionalDependencies": {}
+}

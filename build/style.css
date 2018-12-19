@@ -1,0 +1,238 @@
+@font-face {
+    font-family: Roboto Thin;
+    src: url(fonts/3967.ttf);
+}
+
+@font-face {
+    font-family: Bebas Neue Book;
+    src: url(fonts/9116.otf);
+}
+
+body {
+    background: #f9f9f9;
+    font-family: Arial, sans-serif;
+}
+
+.section-header {
+    margin-bottom: 20px;
+    font-family: Roboto Thin;
+    font-size: 18px;
+    border-bottom-color: #dcdedd;
+    border-bottom-style: solid;
+    border-width: 1px;
+}
+
+.section-header-text {
+    border-bottom-color: #282828;
+    border-bottom-style: solid;
+    border-width: 1px;
+    padding-bottom: 2px;
+    font-family: Roboto Thin;
+    font-size: 18px;
+}
+
+.pre-header,
+.select-custom {
+    background: #000000;
+    font-size: 13px;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.pre-header {
+    padding: 10px 0 10px 0;
+    color: #929292;
+}
+
+.select-custom {
+    color: #fefefe;
+    background-image: url('images/arrow.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+:focus {
+    outline: none;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.header {
+    padding: 10px 0 10px 0;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.tel-custom {
+    font-size: 15px;
+}
+
+.schedule {
+    font-size: 10px;
+    color: #a0a0a0;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.request-call {
+    font-size: 12px;
+}
+
+.icon-text {
+    font-size: 12px;
+    color: #a0a0a0;
+}
+
+.navbar-custom {
+    padding-top: 1px;
+    border-bottom-color: #dcdedd;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-top-color: #656969;
+    border-top-style: solid;
+    border-top-width: 1px;
+    font-family: Bebas Neue Book;
+    font-size: 18px;
+}
+
+.carousel-block {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.carousel {
+    border-color: white;
+    border-style: solid;
+    border-width: 20px;
+    color: black;
+}
+
+.carousel-caption {
+    color: #282828;
+}
+
+.container-section {
+    margin-bottom: 20px;
+    background: white;
+    border-color: white;
+    border-style: solid;
+    border-width: 20px;
+}
+
+.card-section {
+    padding: 2px 10px 2px 10px;
+    background: black;
+    color: white;
+    font-size: 13px;
+}
+
+.card-name-container {
+    margin-top: 25px;
+    height: 50px;
+}
+
+.card-name {
+    font-size: 16px;
+}
+
+.card-price-container {
+    height: 75px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-top-color: #dcdedd;
+    border-top-style: solid;
+    border-top-width: 1px;
+    margin: 25px 0 0 0;
+    padding: 15px 0 15px 0;
+}
+
+.button-custom {
+    -ms-flex-item-align: center;
+    align-self: center;
+    margin-left: 10px;
+    padding: 5px 15px;
+    background: #fc2561;
+    font-family: Bebas Neue Book;
+    font-size: 16px;
+    color: white;
+    border: none;
+}
+
+.button-custom img {
+    padding-right: 10px;
+}
+
+.img-prod {
+    -ms-flex-item-align: start;
+    align-self: start;
+    height: 190px;
+}
+
+.img-discount {
+    -ms-flex-item-align: start;
+    align-self: start;
+    margin-left: -20;
+}
+
+.price-discount {
+    color: #f44336;
+    font-size: 20px;
+}
+
+.price-old {
+    text-decoration: line-through;
+    font-size: 18px;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer {
+    padding-top: 20px;
+    background: white;
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-top-color: #656969;
+}
+
+.footer-menu {
+    font-family: Bebas Neue Book;
+    font-size: 18px;
+}
+
+.footer-links {
+    font-size: 14px;
+}
+
+.footer-button {
+    margin-top: 20px;
+    padding: 5px 10px 5px 10px;
+    background: none;
+    border-width: 1px;
+    border-color: #fc2561;
+    font-size: 14px;
+}
+
+#go-top {
+    position: fixed;
+    bottom: 25px;
+    right: 70px;
+    cursor: pointer;
+    display: none;
+    width: 50px;
+    height: 50px;
+    line-height: 30px;
+    border-radius: 50px;
+    border-color: #7a7d7d;
+    border-style: solid;
+    background-image: url('images/arrow_0019.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
